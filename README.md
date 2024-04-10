@@ -1,2 +1,15 @@
-# Responsive_Portfolio_10-05-23
-Follow this beginner's guide to create a responsive portfolio website using HTML and CSS. With no prior coding experience required, this tutorial will teach you how to create a website that looks great on any device.
+🎉 **Welcome to Saloni Gadhiya portfolio!** 🚀
+
+## Introduction
+Explore my portfolio below! Each project showcases my skills and creativity. Don't hesitate to reach out for collaborations or inquiries. 🌟
+
+## Projects
+1. 🌐 **[Project 1: TIC-TAC-TEO]** 📝
+2. 🎨 **[Project 2: CLOCK]** 🎬
+3. 💡 **[Project 3: Timer]** 🔥
+4. 🚀 **[Project 3: HomeFeels]** 🌐
+
+## Contact
+- **Name:** Saloni Gadhiya 📞
+- **Email:** gadhiyasaloni@gmail.com 📧
+- **LinkedIn:** http://www.linkedin.com/in/saloni-gadhiya-8538b2258 🔗
