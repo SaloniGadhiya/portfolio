@@ -7,7 +7,7 @@ Explore my portfolio below! Each project showcases my skills and creativity. Don
 1. 🌐 **[Project 1: TIC-TAC-TEO]** 📝
 2. 🎨 **[Project 2: CLOCK]** 🎬
 3. 💡 **[Project 3: Timer]** 🔥
-4. 🚀 **[Project 3: HomeFeels]** 🌐
+4. 🚀 **[Project 4: HomeFeels]** 🌐
 
 ## Contact
 - **Name:** Saloni Gadhiya 📞
