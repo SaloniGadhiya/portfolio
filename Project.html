@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .projects {
+      background-color: var(--bg-color);
+      padding: 32px 0;
+      margin-top: 2rem;
+    }
+
+    .project-pic {
+      width: 150px;
+      height: 150px;
+    }
+
+    .project-pic img {
+      height: 90px;
+      width: 90px;
+    }
+
+    .projects-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .projects-title {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .project-container {
+      text-align: center;
+      width: 21.875rem;
+      padding: 1rem;
+    }
+
+    .project-container p {
+      padding: 0.4rem;
+    }
+
+    .project-title {
+      margin-bottom: var(--bottom-margin);
+    }
+
+    .project-details {
+      margin-bottom: var(--bottom-margin);
+    }
+
+    .project-card {
+      background-color: #fff;
+      border-radius: 11px;
+      box-shadow: 0 3px 10px var(--primary-shadow);
+      padding: 20px;
+      margin: 10px;
+      border: 2px solid #a855f7;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .project-card:hover {
+      background-color: #f5f5f5;
+      /* Change background color on hover */
+      border-color: rgba(0, 0, 0, 0.2);
+      /* Change border color on hover */
+    }
+  </style>
+  <title>Saloni Gadhiya</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Saloni</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Project.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br />
+  <br />
+  <br />
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets/ttt.png" alt="" loading="lazy" class="project-pic" />
+        <h3 class="project-title">TIC-TAC-TEO</h3>
+        <p class="project-details">
+          Experience classic Tic-Tac-Toe online, showcasing my skill in crafting interactive web experiences with HTML,
+          CSS, and JavaScript.
+        </p>
+        <a href="https://github.com/SaloniGadhiya/TIC-TAC-TAO.git" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/timer.png" alt="" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Timer</h3>
+        <p class="project-details">
+          A timer combines HTML, CSS, and JavaScript to display and update time dynamically, enhancing user engagement
+          and interaction.
+        </p>
+        <a href="https://github.com/SaloniGadhiya/TIMER.git" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/clock.png" alt="" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Clock</h3>
+        <p class="project-details">
+          Add a sleek clock to your portfolio using HTML, CSS, and JavaScript for a professional touch and enhanced user
+          experience.
+        </p>
+        <a href="https://github.com/SaloniGadhiya/CLOCK.git" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets/home.png" alt="" loading="lazy" class="project-pic" />
+        <h3 class="project-title">HomeFeels</h3>
+        <p class="project-details">
+          HOMEFEELS is an online marketplace connecting property buyers and renters with owners through virtual property
+          viewings and interactions.
+        </p>
+        <a href="https://github.com/SaloniGadhiya/HomeFeels.git" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>

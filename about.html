@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Saloni Gadhiya</title>
+  <style>
+    .about {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 2rem;
+      margin-top: 70px;
+    }
+
+    .about-text h4 {
+      margin: 10px 0;
+      color: var(--main-color);
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .about-text h2 {
+      font-size: var(--h2-font);
+    }
+
+    .about-text p {
+      color: var(--second-color);
+      font-size: var(--p-font);
+      line-height: 30px;
+      margin-bottom: 2rem;
+    }
+
+    .about-gri {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    .about-in h5 {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .about-img img {
+      height: 600px;
+      width: 450px;
+      margin-left: 150px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Saloni</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Project.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="saloni.jpg" />
+    </div>
+
+    <div class="about-text">
+      <h1>About Me</h1>
+      <h4>👋 Hi, I’m Saloni Gadhiya
+        !!</h4>
+      <p>
+        ⌨️ I am a B.Tech Final Year Student of CHARUSAT University, Pursuing My Degree in
+        B.Tech from CHARUSAT. I have a keen Interest in Problems Solving and Finding new and
+        Dynamic Ideas.
+      </p>
+      <p>
+        I am a Front-end Web Developer. I can provide clean code and pixel perfect design.Looking forward, I aim to Web
+        Developer.
+      </p>
+      <p>
+        I’m currently learning Full-Stack Web Development.
+      </p>
+      <div class="about-gri">
+        <div class="about-in">
+          <h5>1. Problem Solving</h5>
+        </div>
+
+        <div class="about-in">
+          <h5>2. DSA</h5>
+        </div>
+
+        <div class="about-in">
+          <h5>3. Software Developer</h5>
+        </div>
+
+        <div class="about-in">
+          <h5>4. Web Development</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
